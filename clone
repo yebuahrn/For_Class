@@ -1,0 +1,22 @@
+how to clone another person's repo and push to your own repo
+
+1.  clone the other repo with: git clone <the other person's repo url>
+
+2.  cd into the cloned folder
+
+3.  delete the .git    rm -rf .git
+ 
+4.  re-initialize     git init
+
+5.  make changes to file(s) if neccessary
+
+6.  git add <filename> or git add . (for everything in the folder)
+  
+7.  git commit -m "msg" filename or git commit -m "msg" for entire folder
+
+8.  git remote add origin <paste you repo url>
+
+9.  git push origin 
+
+
+
